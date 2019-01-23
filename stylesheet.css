@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    position: relative;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#navbar {
+    position: fixed;
+    top: 10px;
+    left: -0.2px;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin: 25px 5px;
+    padding: 10px 5px;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    right: 5px;
+}
+
+a:link {
+    color: #123;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+@media (max-width: 300px) {
+    #navbar {
+        position: relative;
+    }
+    main {
+        position: relative;
+    }
+}
